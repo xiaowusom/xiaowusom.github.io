@@ -1,0 +1,259 @@
+<html>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript">
+    // 页面打开 立即计算
+    document.querySelector('html').style.fontSize = window.screen.width / 20 + 'px';
+    // 尺寸更改也会重新计算
+    // 这里 写这个事件的目的是 是为了 让我们在 桌面端测试时 可以自动计算 移动端
+    window.onresize = function () {
+      document.querySelector('html').style.fontSize = window.screen.width / 20 + 'px';
+    }
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+  <div class="loading ">
+    <div class="rider"></div>
+    <div class="progress">
+      <div class="progress1"></div>
+    </div>
+    <div class="info"></div>
+    <div class="logo">
+    </div>
+    <div class="copyright">
+      @ 2017 Baidu waimai produced
+    </div>
+  </div>
+  <div class="welcome">
+    <div class="info">
+      <div class="hello"></div>
+    </div>
+    <div class="cloud"></div>
+    <div class="bear-box">
+      <div class="bear"></div>
+    </div>
+    <div class="smoke"></div>
+
+    <div class="trees"></div>
+    <div class="grass1"></div>
+    <div class="rotate-btn-box">
+      <div class="rotate-btn">
+        <div class="btn"></div>
+        <div class="btnred"></div>
+      </div>
+    </div>
+    <div class="grass2"></div>
+  </div>
+
+  <div class="waimai-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide page1">
+        <div class="title">
+          <h3>生活中，</h3>
+          <p>经常有这种时候···</p>
+          <div class="line"></div>
+        </div>
+        <!--轮播盒子01-->
+        <div class="scroll-page1">
+          <div class="bg"></div>
+          <div class="desk">
+            <div class="papers"></div>
+          </div>
+          <div class="ball"></div>
+          <div class="bear"></div>
+          <div class="speak">
+            <div class="article"></div>
+          </div>
+        </div>
+        <!--轮播盒子01底部-->
+        <!--轮播盒子02-->
+        <div class="title">
+          <h3>生活中，</h3>
+          <p>经常有这种时候···</p>
+          <div class="line"></div>
+        </div>
+        <div class="scroll-page2" style='display:none;'>
+          <div class="bg"></div>
+          <div class="desk">
+            <div class="leg1"></div>
+            <div class="leg2"></div>
+          </div>
+          <div class="ball"></div>
+          <div class="bear"></div>
+          <div class="speak">
+            <div class="article"></div>
+          </div>
+        </div>
+        <!--轮播盒子02底部-->
+        <!--轮播盒子03-->
+        <div class="title">
+          <h3>生活中，</h3>
+          <p>经常有这种时候···</p>
+          <div class="line"></div>
+        </div>
+        <div class="scroll-page3" style='display:none;'>
+          <div class="bg"></div>
+          <div class="person">
+            <div class="word1"></div>
+            <div class="word2"></div>
+            <div class="word3"></div>
+            <div class="word4"></div>
+          </div>
+          <div class="ball"></div>
+          <div class="bear"></div>
+          <div class="speak">
+            <div class="article"></div>
+          </div>
+        </div>
+        <!--轮播盒子03底部-->
+
+
+      </div>
+      <div class="swiper-slide page2 ">
+        <div class="title">
+          <h3>这时候，</h3>
+          <p>如果有一份美味的外卖···</br>正好出现...</p>
+          <div class="line"></div>
+        </div>
+        <div class="pink-page1">
+          <div class="bg"></div>
+          <div class="ball"></div>
+          <div class="desk"></div>
+          <div class="foods"></div>
+          <div class="bear">
+            <div class="hand-left"></div>
+            <div class="hand-right"></div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide page3">
+        <div class="title">
+          <h3>这时候，</h3>
+          <p>如果有一份美味的外卖···</br>正好出现...</p>
+          <div class="line"></div>
+        </div>
+        <div class="yellow-page1">
+          <div class="bg"></div>
+          <div class="ball"></div>
+          <div class="bear"></div>
+          <div class="license"></div>
+          <div class="oil1"></div>
+          <div class="evil2"></div>
+        </div>
+      </div>
+
+      <div class="swiper-slide page4">
+        <div class="title">
+          <h3>百度外卖，</h3>
+          <p>只做有品质的外卖···</br>操作快捷...</p>
+          <div class="line"></div>
+        </div>
+        <div class="green-page1">
+          <div class="bg"></div>
+          <div class="ball"></div>
+          <div class="bear"></div>
+          <div class="license"></div>
+          <div class="oil1"></div>
+          <div class="evil2"></div>
+        </div>
+
+      </div>
+      <div class="swiper-slide page5">
+        <div class="title">
+          <h3>刮风暴雨，</h3>
+          <p>我们都准时为你送达···</br>风雨无阻...</p>
+          <div class="line"></div>
+        </div>
+        <div class="blue-page1">
+          <div class="bg"></div>
+          <div class="cloud"></div>
+          <div class="ball"></div>
+          <div class="bear"></div>
+          <div class="shadow"></div>
+        </div>
+      </div>
+      <div class="swiper-slide page6">
+        <div class="title">
+          <h3>丰富礼品，</h3>
+          <p> 让你边吃，边省钱...</p>
+          <div class="line"></div>
+        </div>
+        <div class="purple-page1">
+          <div class="bg"></div>
+          <div class="ball"></div>
+          <div class="bear">
+            <div class="gift1"></div>
+            <div class="gift2"></div>
+            <div class="gift3"></div>
+            <div class="gift4"></div>
+            <div class="gift5"></div>
+            <div class="gift6"></div>
+            <div class="gift7"></div>
+            <div class="gift8"></div>
+            <div class="gift9"></div>
+            <div class="gift10"></div>
+            <div class="gift11"></div>
+            <div class="gift12"></div>
+          </div>
+
+        </div>
+      </div>
+      <div class="swiper-slide page7">
+        <div class="title">
+          <h3>所有的努力，</h3>
+          <p> 风雨无就外卖···</br>呈现给你...</p>
+          <div class="line"></div>
+        </div>
+        <div class="gray-page1">
+          <div class="bg"></div>
+          <div class="cloud"></div>
+          <div class="ball"></div>
+          <div class="bear"></div>
+          <div class="shadow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+<script type="text/javascript" src="lib/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="lib/zepto/zepto.js"></script>
+<!--<script type="text/javascript" src="lib/zepto/touch.js"></script>-->
+<script type="text/javascript" src="lib/zepto/event.js"></script>
+<script type="text/javascript" src="lib/zepto/fx_methods.js"></script>
+<script type="text/javascript" src="lib/zepto/fx.js"></script>
+<script type="text/javascript" src="lib/zepto/touch.js"></script>
+
+
+
+<script type="text/javascript">
+  var swiper = new Swiper('.waimai-container', {
+    direction: 'vertical',
+  });
+  $(function () {
+    setTimeout(function () {
+      $(".loading").addClass('animate');
+      $(".loading .progress1").on('animationend', function () {
+        console.log('我播完了')
+        $(".loading").fadeOut(1000, function () {
+          $(".welcome").addClass('animate');
+        })
+      })
+    }, 1000);
+
+
+
+  })
+</script>
